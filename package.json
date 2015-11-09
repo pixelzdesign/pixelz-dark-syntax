@@ -1,0 +1,22 @@
+{
+  "name": "pixelz-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "pixelzdesign dark syntax theme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "pixelz",
+    "pixelzdesign",
+    "dark",
+    "modern"
+  ],
+  "author": {
+    "name": "Zlatko Malinovic"
+  },
+  "repository": "https://github.com/atom/pixelz-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
