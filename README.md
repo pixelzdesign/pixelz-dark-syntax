@@ -2,4 +2,4 @@
 
 A pixelz dark modern syntax theme for Atom
 
-![A screenshot of your theme](https://cloud.githubusercontent.com/assets/4021129/11028843/7d944f64-86c2-11e5-9938-754076113ba4.png)
+![A screenshot of your theme](https://cloud.githubusercontent.com/assets/4021129/11079464/d4b2db76-880c-11e5-90b6-2dc98200ba2a.png)
