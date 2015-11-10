@@ -73,7 +73,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @plava-light;
   }
 }
 
@@ -93,7 +93,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.unit {
-    color: @orange;
+    color: @siva-dark;
   }
 }
 
@@ -102,22 +102,26 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .constant {
-  color: @orange;
+  color: @siva;
 
   &.character.escape {
-    color: @cyan;
+    color: @siva;
   }
 
   &.numeric {
-    color: @orange;
+    color: @siva;
   }
 
   &.other.color {
-    color: @cyan;
+    color: @siva;
+  }
+
+  &.other.color.rgb-value {
+    color: @blue;
   }
 
   &.other.symbol {
-    color: @green;
+    color: @plava-light;
   }
 }
 
@@ -139,14 +143,14 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .string {
-  color: @green;
+  color: @plava-light;
 
 
   &.regexp {
-    color: @cyan;
+    color: @siva;
 
     .source.ruby.embedded {
-      color: @orange;
+      color: @zelena;
     }
   }
 
@@ -164,7 +168,7 @@ atom-text-editor .search-results .marker.current-result .region,
     &.string,
     &.parameters,
     &.array {
-      color: @green;
+      color: @plava-light;
     }
 
     &.variable {
@@ -199,11 +203,15 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function  {
-    color: @cyan;
+    color: @siva;
 
     &.any-method {
       color: @blue;
     }
+  }
+
+  &.type {
+    color: @css-names;
   }
 }
 
@@ -221,11 +229,11 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.tag {
-    color: @orange;
+    color: @zelena;
   }
 
   &.other.attribute-name {
-    color: @purple;
+    color: @red;
 
     &.id {
       color: @blue;
@@ -239,7 +247,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.link {
-    color: @orange;
+    color: @zelena;
   }
 
   &.require {
@@ -254,6 +262,11 @@ atom-text-editor .search-results .marker.current-result .region,
     background-color: @gray;
     color: @syntax-text-color;
   }
+
+  &.property-value {
+    color: @zelena-dark;
+  }
+
 }
 
 .none {
@@ -262,7 +275,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
   &.bold {
-    color: @orange;
+    color: @zelena;
     font-weight: bold;
   }
 
@@ -284,7 +297,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.inserted {
-    color: @green;
+    color: @plava-light;
   }
 
   &.list {
@@ -292,18 +305,18 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.quote {
-    color: @orange;
+    color: @zelena;
   }
 
   &.raw.inline {
-    color: @green;
+    color: @plava-light;
   }
 }
 
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @green;
+    color: @plava-light;
   }
 }
 
